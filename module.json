@@ -41,6 +41,17 @@
       "label": "Class Abilities",
       "path": "packs/class-abilities",
       "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "buffs",
+      "label": "Buffs",
+      "path": "packs/buffs",
+      "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
