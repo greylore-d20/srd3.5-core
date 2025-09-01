@@ -2,9 +2,11 @@
   "id": "d20-srd-35",
   "title": "D20 SRD 3.5",
   "version": "1.0.0",
+  "manifest": "https://github.com/greylore-d20/srd3.5-core/releases/latest/download/module.json",
+  "download": "https://github.com/greylore-d20/srd3.5-core/releases/download/release-1.0.0/module.zip",
   "compatibility": {
     "minimum": "12",
-    "verified": "12"
+    "verified": "13.348"
   },
   "authors": [
     {
@@ -52,11 +54,46 @@
       "label": "Buffs",
       "path": "packs/buffs",
       "type": "Item",
+      "system": "pf1",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf1"
+      }
+    },
+    {
+      "name": "races",
+      "label": "Races",
+      "path": "packs/races",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "domains",
+      "label": "Domains",
+      "path": "packs/domains",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "prestige-classes",
+      "label": "Prestige Classes",
+      "path": "packs/prestige-classes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
-  ]
+  ],
+  "description": "",
+  "flags": {}
 }
